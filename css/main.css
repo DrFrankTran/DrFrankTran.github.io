@@ -1,0 +1,50 @@
+.topbar{
+    margin-top:30px;
+}
+
+.col-lg-5{
+  min-height: 90px;
+}
+
+.homebutton a:hover{
+  text-decoration: none;
+}
+
+@media (min-width: 1500px) {
+  .container{
+    width: 2000px;
+  }
+}
+
+.homebutton-top{
+  font-family: 'Roboto', sans-serif;
+  font-weight: 600;
+  font-size: 35px;
+  color: #406882;
+}
+
+.homebutton-bot{
+  font-family: 'Roboto', sans-serif;
+  font-size: 17px;
+  color: #2a4752;
+}
+
+.addressline{
+  font-family: 'Roboto', sans-serif;
+  font-size: 15px;
+  color: #2a4752;
+}
+
+.addressline-header{
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+  font-size: 16px;
+  color: #406882;
+}
+
+.contactline{
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+  font-size: 20px;
+  color: #406882;
+}
