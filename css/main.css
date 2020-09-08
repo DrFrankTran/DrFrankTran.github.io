@@ -19,8 +19,24 @@
 }
 
 
+#mission-statement{
+  padding: 30px;
+  background-color: #d5dce8;
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+}
 
+@media (max-width: 1199px) {
+  #mission-statement{
+    font-size:18px;
+  }
+}
 
+@media (max-width: 769px) {
+  #mission-statement{
+    font-size:15px;
+  }
+}
 .topbar{
     margin-top:30px;
 }
@@ -70,4 +86,104 @@
   font-weight: bold;
   font-size: 20px;
   color: #406882;
+}
+
+
+#mainnav {
+  min-height: 4rem;
+  background-color: #2f3c52;
+  font-family: 'Roboto', sans-serif;
+}
+
+#mainnav .navbar-toggler {
+  font-size: 100%;
+  padding: 0.75rem;
+}
+
+#mainnav .nav-item{
+  margin-right: 10px;
+}
+
+#meet{
+  padding: 20px;
+}
+
+.meetheader{
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+  font-weight: normal;
+}
+
+.headshot{
+  float: left;
+  width: 250px;
+  margin-right: 20px;
+}
+
+.bio{
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+}
+
+.bio-box{
+  padding-top: 15px;
+}
+
+@media (max-width: 769px) {
+  .headshot{
+    width:150px;
+  }
+  .bio{
+    font-size: 15px;
+  }
+}
+
+@media all and (min-width: 768px) {
+	.navbar .nav-item .dropdown-menu{ display: none; }
+	.navbar .nav-item:hover .nav-link{ color: #fff;  }
+	.navbar .nav-item:hover .dropdown-menu{ display: block; }
+	.navbar .nav-item .dropdown-menu{ margin-top:0; }
+}
+
+#profilebutton{
+  font-family: 'Roboto', sans-serif;
+  background-color: #2f3c52;
+  color: white;
+}
+
+#profilebutton:hover{
+  background-color: #577099;
+}
+
+#profilebutton:active{
+  background-color: #3d506e;
+}
+
+.btn:focus,.btn:active {
+   outline: none !important;
+   box-shadow: none;
+}
+
+#specializations{
+  background-color:#495363;
+  padding-top:20px;
+
+}
+
+.list-inline-item{
+  margin:10px;
+  color: #d3d6db;
+  font-family: 'Roboto', sans-serif;
+}
+
+.list-inline-item:hover{
+  color: #b7bec9;
+}
+
+.specialization-images{
+  margin-bottom: 10px;
+}
+
+iframe{
+  margin: 10px
 }
