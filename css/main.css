@@ -18,7 +18,13 @@
   color: rgba(255, 255, 255, 0.7);
 }
 
+.dropdown-menu .dropdown-item:hover{
+  background-color: #b2bcd1;
+}
 
+.dropdown-menu .dropdown-item:active{
+  background-color: #919eba;
+}
 #mission-statement{
   padding: 30px;
   background-color: #d5dbe0;
@@ -100,6 +106,7 @@
   padding: 0.75rem;
 }
 
+
 #mainnav .nav-item{
   margin-right: 10px;
 }
@@ -107,7 +114,17 @@
 #meet{
   padding: 20px;
 }
+#hiddenLocationText{
+  margin-top: 30px;
+}
 
+#visibleLocationText{
+  margin-bottom: 30px;
+}
+
+.location-separator{
+  margin-bottom:35px;
+}
 .meetheader{
   font-family: 'Roboto', sans-serif;
   font-size: 23px;
@@ -187,12 +204,14 @@
   #demo2{
     display: none;
   }
+
 }
 
 @media (min-width: 991px) {
   #demo3{
     display: none;
   }
+
 }
 
 
@@ -219,8 +238,20 @@
     margin-right: auto;
     margin-left: auto;
   }
+
 }
 
+@media(max-width: 575px){
+  #hiddenLocationText{
+    display:none;
+  }
+}
+
+@media(min-width: 576px){
+  #visibleLocationText{
+    display: none;
+  }
+}
 
 
 @media all and (min-width: 768px) {
@@ -327,8 +358,8 @@ iframe{
 }
 
 .location-header{
-  .font-family: 'Roboto', sans-serif;
-  .font-size: 20px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
   font-weight: 400;
   margin-left: 30px;
   margin-bottom: 20px;
@@ -339,22 +370,17 @@ iframe{
 }
 
 .location-subheader{
-  .font-family: 'Roboto', sans-serif;
-  .font-size: 20px;
-  font-weight: 400;
-  color: rgba(0, 0, 0, 0.7);
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
 }
 
 .location-box{
-  margin-left: 20px;
-  margin-bottom: 30px;
+  margin-bottom: 20px;
 }
 
 .iframeLocations{
   height: 100%;
   width: 100%;
-  margin-left:20px;
-  margin-right: 20px;
   text-align: center;
 }
 
