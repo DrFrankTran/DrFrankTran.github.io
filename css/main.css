@@ -1,3 +1,5 @@
+@import "compass/css3";
+
 .masthead{
   position: relative;
   width: 100%;
@@ -34,13 +36,13 @@
 
 @media (max-width: 1199px) {
   #mission-statement{
-    font-size:16px;
+    font-size:18px;
   }
 }
 
 @media (max-width: 769px) {
   #mission-statement{
-    font-size:15px;
+    font-size:17px;
   }
 }
 .topbar{
@@ -127,7 +129,7 @@
 }
 .meetheader{
   font-family: 'Roboto', sans-serif;
-  font-size: 23px;
+  font-size: 30px;
   font-weight: normal;
 }
 
@@ -187,10 +189,10 @@
     width:150px;
   }
   .bio{
-    font-size: 15px;
+    font-size: 17px;
   }
   .meetheader{
-    font-size: 19px;
+    font-size: 23px;
   }
   .bio-box{
     padding-top: 5px;
@@ -220,10 +222,10 @@
     width:150px;
   }
   .bio{
-    font-size: 15px;
+    font-size: 17px;
   }
   .meetheader{
-    font-size: 19px;
+    font-size: 23px;
   }
   .bio-box{
     padding-top: 5px;
@@ -295,6 +297,16 @@
   color: #b7bec9;
 }
 
+.list-inline-item a:hover{
+  color: #b7bec9;
+  text-decoration: none;
+}
+
+.list-inline-item a{
+  color: #d3d6db;
+  font-family: 'Roboto', sans-serif;
+}
+
 .specialization-images{
   margin-bottom: 10px;
   max-width: 115px;
@@ -336,6 +348,7 @@ iframe{
 }
 
 .contact-locations{
+  padding-top: 30px;
   padding-left: 10px;
   text-align: left;
 }
@@ -385,5 +398,34 @@ iframe{
 }
 
 .inlinebox{
-  display: :inline
+  display:inline;
+}
+
+#patient{
+  background-clip: padding-box;
+  padding-top: 20px;
+  background-color: #d5dbe0;
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+}
+
+.subheader1{
+  margin-bottom: 20px;
+  padding-top: 20px;
+}
+
+
+.journey0 {
+  text-align: justify;
+  position: relative;
+  overflow: hidden;
+}
+
+.journey-inline-item{
+  padding: 30px;
+  display: inline-block;
+}
+
+.rounded-circle{
+  margin-bottom: 10px;
 }
