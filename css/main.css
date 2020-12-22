@@ -12,6 +12,13 @@
   background-repeat: no-repeat;
 }
 
+.imgcondition{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+}
+
 .masthead h1{
   font-family: 'Roboto', sans-serif;
   font-size: 2.5rem;
@@ -116,6 +123,11 @@
 #meet{
   padding: 20px;
 }
+
+#contact-map{
+  padding: 20px;
+}
+
 #hiddenLocationText{
   margin-top: 30px;
 }
@@ -130,6 +142,25 @@
 .meetheader{
   font-family: 'Roboto', sans-serif;
   font-size: 30px;
+  margin-left: 30px;
+  font-weight: normal;
+}
+
+.header1{
+  font-family: 'Roboto', sans-serif;
+  font-size: 30px;
+  font-weight: normal;
+}
+
+.header2{
+  font-family: 'Roboto', sans-serif;
+  font-size: 30px;
+  font-weight: normal;
+}
+
+.header3{
+  font-family: 'Roboto', sans-serif;
+  font-size: 27px;
   font-weight: normal;
 }
 
@@ -154,6 +185,15 @@
 
 .bio-box{
   padding-top: 15px;
+}
+
+.conditions-box{
+  padding-top: 10px;
+}
+
+.condition-text{
+  font-family: 'Roboto', sans-serif;
+  font-size: 17px;
 }
 
 @media (max-width: 1200px) {
@@ -194,6 +234,18 @@
   .meetheader{
     font-size: 23px;
   }
+
+  .header1{
+    font-size:23px;
+  }
+  .header2{
+    font-size:23px;
+  }
+  .header3{
+    font-family: 'Roboto', sans-serif;
+    font-size: 21px;
+    font-weight: normal;
+  }
   .bio-box{
     padding-top: 5px;
   }
@@ -205,6 +257,12 @@
   }
   #demo2{
     display: none;
+  }
+  .imgcondition{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
   }
 
 }
@@ -222,10 +280,24 @@
     width:150px;
   }
   .bio{
-    font-size: 17px;
+    font-size: 16px;
+  }
+  .condition-text{
+    font-size: 16px;
   }
   .meetheader{
     font-size: 23px;
+  }
+  .header1{
+    font-size: 23px;
+  }
+  .header2{
+    font-size: 23px;
+  }
+  .header3{
+    font-family: 'Roboto', sans-serif;
+    font-size: 23px;
+    font-weight: normal;
   }
   .bio-box{
     padding-top: 5px;
@@ -240,6 +312,12 @@
     margin-right: auto;
     margin-left: auto;
   }
+  .imgcondition{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+  }
 
 }
 
@@ -247,6 +325,7 @@
   #hiddenLocationText{
     display:none;
   }
+
 }
 
 @media(min-width: 576px){
@@ -318,7 +397,6 @@
 }
 
 iframe{
-  margin: 10px
 }
 
 #footer{
@@ -348,15 +426,13 @@ iframe{
 }
 
 .contact-locations{
-  padding-top: 30px;
-  padding-left: 10px;
   text-align: left;
 }
 
 .locationtop{
   pointer-events: none;
   color: black;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Roboto', serif;
   font-weight: bold;
   font-size: 15px;
   text-align: left;
@@ -428,4 +504,16 @@ iframe{
 
 .rounded-circle{
   margin-bottom: 10px;
+}
+
+#conditions{
+  padding:20px;
+}
+
+
+.imgcondition-caption{
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    margin-top: 5px;
+    margin-bottom: 10px;
 }
